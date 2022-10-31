@@ -1,0 +1,309 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.container {
+  /* width: 60rem; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* NAVIGATION SECTION */
+
+.navigation {
+  background-color: #4e4e4e;
+}
+
+.container-navigation {
+  height: 2.78rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.container-links {
+  display: none;
+}
+
+.heading-1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+/* FOREST SECTION */
+
+.img-forest {
+  height: calc(100vh - 85px);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url("images/image-forest-min.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.img-text-container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.text-and-rectangle {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.long-text {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0 0 1.11rem;
+}
+
+.short-text {
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0 0 1.11rem;
+}
+
+.text-in-rectangle {
+  width: 4.44rem;
+  height: auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  border: 0.17rem solid #ffffff;
+  padding: 0.55rem;
+  transition: background-color 1s, color 1s;
+}
+
+.text-in-rectangle:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* EXPERT SECTION */
+
+.about-us-container {
+  background-color: #f1f1f1;
+  padding: 2.22rem 0;
+}
+
+.main-text-experts {
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  color: #152d41;
+  padding-bottom: 1.11rem;
+}
+
+.about-experts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.expert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.circle {
+  min-width: 12.28rem;
+  height: 12.28rem;
+  border-radius: 50%;
+  border: 0.06rem solid #c4c4c4;
+  background-color: #c4c4c4;
+  background-size: cover;
+  background-position: center;
+  margin: 1.11rem;
+}
+
+.first-circle {
+  background-image: url("images/img-woman.jpg");
+}
+
+.second-circle {
+  background-image: url("images/img-man.jpg");
+}
+
+.name-expert {
+  font-weight: bold;
+  text-align: left;
+}
+
+.lorem-expert {
+  text-align: justify;
+  margin: 1.11rem 0;
+}
+
+/* ABOUT COMPANY SECTION */
+
+.about-company {
+  background-color: #405d78;
+}
+
+.main-text-about-company {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-bottom: 1.11rem;
+}
+
+.container-of-company-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: 0.06rem solid #f1f1f1;
+  width: 11rem;
+  height: 10.77rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1.11rem 0;
+  transition: transform 0.5s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box1 {
+  position: relative;
+}
+
+.small-circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.06rem solid #e07a64;
+  background-color: #e07a64;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.61rem;
+  left: -0.61rem;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #4e4e4e;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-in-footer {
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.container-of-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  column-gap: 10px;
+}
+
+.socialmedia-icon {
+  font-size: 1.72rem;
+  height: auto;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 769px) {
+  .container-of-company-boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container-links {
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+  }
+  .main-text-experts {
+    text-align: left;
+  }
+  .about-experts {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .about-experts:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .main-text-about-company {
+    text-align: left;
+  }
+  .container-of-company-boxes {
+    display: grid;
+    grid-template-columns: 11rem 11rem 11rem;
+    grid-gap: 40px;
+  }
+  .box {
+    margin: 0;
+  }
+}
