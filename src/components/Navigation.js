@@ -15,7 +15,7 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a className="disabled link" href="#contact">
+            <a className="disabled link" disabled href="#contact">
               kontakt
             </a>
           </li>

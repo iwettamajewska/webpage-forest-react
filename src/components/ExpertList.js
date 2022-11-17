@@ -2,13 +2,13 @@ import Expert from "./Expert";
 
 const twoExperts = [
   {
-    name: "Jan Kowalski",
+    name: "Anna Kowalska",
     department: "Marketing",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    name: "Anna Kowalska",
+    name: "Jan Kowalski",
     department: "Finance",
     description:
       "Morbi vel massa et lacus egestas cursus a non magna. Fusce scelerisque blandit nunc, id malesuada ex lobortis a. Integer felis nisi, tempor elementum lorem in, varius pellentesque ligula. Duis efficitur lacinia enim, non tincidunt libero ultrices in.",
