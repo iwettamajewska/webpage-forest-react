@@ -6,8 +6,6 @@ const Expert = ({ name, department, description, index }) => {
   const expertClass =
     index % 2 === 0 ? "first-expert expert" : "second-expert expert";
 
-  console.log(index);
-
   return (
     <div className="about-experts">
       <div className={circleClass}></div>

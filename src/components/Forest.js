@@ -1,7 +1,7 @@
 const Forest = () => {
   return (
-    <header className="img-forest container">
-      <div className="img-text-container">
+    <header className="img-forest">
+      <div className="img-text-container container">
         <h2 className="long-text">
           Nasza firma oferuje najwyższej jakości produkty.
         </h2>

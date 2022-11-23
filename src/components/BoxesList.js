@@ -33,13 +33,15 @@ const BoxesList = () => {
   ));
 
   return (
-    <section id="offer" className="about-company container">
-      <div className="container-of-main-text-about-company">
-        <h4 className="main-text-about-company">
-          Czym zajmuje się nasza firma?
-        </h4>
+    <section id="offer" className="about-company">
+      <div className="container">
+        <div className="container-of-main-text-about-company">
+          <h4 className="main-text-about-company">
+            Czym zajmuje się nasza firma?
+          </h4>
+        </div>
+        <div className="container-of-company-boxes">{BoxesMap}</div>
       </div>
-      <div className="container-of-company-boxes">{BoxesMap}</div>
     </section>
   );
 };

@@ -24,6 +24,7 @@ html {
 .container {
   margin: 0 auto;
   padding: 20px;
+  width: 100%;
 }
 
 /* NAVIGATION SECTION */
@@ -79,6 +80,7 @@ html {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  width: 100%;
 }
 
 .text-and-rectangle {
@@ -270,7 +272,7 @@ html {
     transform: scale(1.05);
   }
 
-  .footer {
+  .footer-arrangement {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -278,6 +280,14 @@ html {
 }
 
 @media screen and (min-width: 1025px) {
+  .container {
+    width: 960px;
+  }
+
+  .img-text-container {
+    width: 960px;
+  }
+
   .container-links {
     display: flex;
     list-style: none;
